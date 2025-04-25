@@ -5,7 +5,7 @@ import { Button } from "../ui/button";
 import LoginModal from "../Main/auth/LoginModal";
 
 export default function Navbar() {
-  let user = true;
+  let user = false;
   return (
     <nav className="p-6 flex justify-between items-center bg-white shadow-sm">
       <h1 className="text-xl md:text-2xl font-extrabold">QuickChat</h1>
